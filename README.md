@@ -1,1 +1,1 @@
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?eumateusvidal=ffflabs)](https://github.com/eumateusvidal/github-readme-stats)
+![Vidal GitHub stats](https://github-readme-stats.vercel.app/api?username=eumateusvidal&show_icons=true&theme=dracula)
