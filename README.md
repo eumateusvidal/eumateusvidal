@@ -102,7 +102,6 @@ flowchart LR
 <sub>actively in progress,<br>not claiming these yet</sub>
 </td>
 <td valign="top">
-<img src="https://img.shields.io/badge/JavaScript%20fundamentals-D9A227?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript fundamentals">
 <img src="https://img.shields.io/badge/GitHub%20Actions%20%26%20CI%2FCD-D9A227?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions and CI/CD">
 <img src="https://img.shields.io/badge/Automated%20testing-D9A227?style=flat-square&logo=vitest&logoColor=white" alt="Automated testing">
 <img src="https://img.shields.io/badge/Algorithms%20%26%20data%20structures-D9A227?style=flat-square" alt="Algorithms and data structures">
