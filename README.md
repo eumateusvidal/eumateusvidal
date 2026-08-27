@@ -150,5 +150,10 @@ that" well.
 ---
 
 <p align="center">
+  <a href="https://mattvidal.works/"><img src="https://img.shields.io/badge/Portfolio-mattvidal.works-111111?style=flat-square" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/mateusvidal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
+
+<p align="center">
   <sub>Open to conversations about front-end and design-systems work.</sub>
 </p>
