@@ -1,158 +1,205 @@
-<h1 align="center">Mateus Vidal</h1>
+<!--
+  GitHub Profile README
+  Positioning: Design × Development × Modern Web Technologies
+-->
+
+<h1 align="center">Hey, I'm Matt 👋</h1>
 
 <p align="center">
-  Front-end developer. Design systems, TypeScript, React.
+  <strong>Web Developer & Designer building at the intersection of design, code, and modern web technologies.</strong>
 </p>
 
 <p align="center">
-  <sub>I build the layer between what a design promises and what the browser actually ships.</sub>
+  I bring a strong visual design background into front-end development — understanding not only how digital experiences should look, but also how they should be structured, built, and brought to life.
+</p>
+
+<p align="center">
+  <a href="#-what-i-do">What I do</a> ·
+  <a href="#-tech--tools">Tech & Tools</a> ·
+  <a href="#-currently-strengthening">Learning</a> ·
+  <a href="#-design--development">Design × Development</a> ·
+  <a href="#-current-focus">Current Focus</a>
 </p>
 
 ---
 
-Design was my way into engineering. That still shows up in how I work: I notice the
-4px problem, and I also know what it costs to fix it properly instead of nudging a
-margin. But the code is the job now. I write production TypeScript, own front-end
-architecture, and spend most of my thinking on the system rather than the screen.
+## 👨‍💻 What I Do
 
-If I have one habit worth hiring, it's this: when something breaks twice the same way,
-I stop patching instances and go fix the cause. Usually that means the system was
-missing a piece.
+I work across the space between **design and front-end development**.
 
-I'm in the middle of a deliberate shift right now, from building interfaces to
-engineering them. Past the stage where tools do my thinking. Still filling in
-fundamentals, on purpose.
+My background has given me experience designing and building web experiences, working with visual systems, interactions, layouts, and implementation workflows. Today, I'm increasingly focused on strengthening the engineering side of my work and becoming a more capable, code-focused Front-End Developer.
 
-## How I work
+My work often involves:
 
-Design systems are code to me, not a Figma page. I build tokens in two tiers so call
-sites reference intent rather than a hex value, and I put new patterns into the shared
-layer before any screen uses them. It's slower for the first two screens and much
-faster for the next twenty.
+- Building and implementing modern web experiences
+- Translating design systems and Figma interfaces into production-ready interfaces
+- Working with HTML, CSS, JavaScript, TypeScript, React, and Webflow
+- Creating motion and interactions with GSAP
+- Exploring AI-assisted development workflows and automation
+- Improving the connection between design decisions and technical implementation
 
-Abstraction has to earn itself. Two hardcoded values in two files means a token is
-missing. One value doesn't mean anything yet.
-
-Accessibility I treat as a build-time constraint. Contrast, visible focus, reduced
-motion. It's cheap as a requirement and expensive as a retrofit, and I don't ship past it.
-
-I work from numbers, not screenshots. Exact values from the source, not a rendered PNG
-and a guess. This removes a whole category of arguing with designers about whether
-something is "close enough."
-
-Where a design and an established system disagree, the system wins and the design
-adapts. That's what keeps twenty pages looking like one product.
-
-And I write things down as I go — architecture notes, conventions, the reasoning behind
-anything non-obvious. Partly for whoever comes next. Mostly for me in six months.
-
-```mermaid
-flowchart LR
-    A[Design intent] --> B[Tokens]
-    B --> C[Shared components]
-    C --> D[Screens]
-    D --> E[Validation]
-    E -->|fix the cause| B
-```
-
-## The stack
-
-<table>
-<tr>
-<td valign="top" width="180">
-<strong>Daily</strong><br>
-<sub>I reach for these<br>without thinking</sub>
-</td>
-<td valign="top">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS">
-<img src="https://img.shields.io/badge/Design%20Tokens-4C4C4C?style=flat-square" alt="Design Tokens">
-<img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro">
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma">
-<img src="https://img.shields.io/badge/Webflow-146EF5?style=flat-square&logo=webflow&logoColor=white" alt="Webflow">
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code">
-</td>
-</tr>
-<tr>
-<td valign="top">
-<strong>Comfortable</strong><br>
-<sub>solid working knowledge,<br>used when the job needs it</sub>
-</td>
-<td valign="top">
-<img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express">
-<img src="https://img.shields.io/badge/REST%20APIs-6B7280?style=flat-square" alt="REST APIs">
-<img src="https://img.shields.io/badge/OAuth2%20%2F%20PKCE-6B7280?style=flat-square" alt="OAuth2 / PKCE">
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase">
-<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud">
-<img src="https://img.shields.io/badge/GSAP-0AE448?style=flat-square&logo=greensock&logoColor=black" alt="GSAP">
-<img src="https://img.shields.io/badge/Radix%20UI-161618?style=flat-square&logo=radixui&logoColor=white" alt="Radix UI">
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright">
-<img src="https://img.shields.io/badge/WCAG%20AA-6B7280?style=flat-square" alt="WCAG AA">
-</td>
-</tr>
-<tr>
-<td valign="top">
-<strong>Learning now</strong><br>
-<sub>actively in progress,<br>not claiming these yet</sub>
-</td>
-<td valign="top">
-<img src="https://img.shields.io/badge/GitHub%20Actions%20%26%20CI%2FCD-D9A227?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions and CI/CD">
-<img src="https://img.shields.io/badge/Automated%20testing-D9A227?style=flat-square&logo=vitest&logoColor=white" alt="Automated testing">
-<img src="https://img.shields.io/badge/Algorithms%20%26%20data%20structures-D9A227?style=flat-square" alt="Algorithms and data structures">
-</td>
-</tr>
-</table>
-
-The third row is the honest one. I could pad the top row with everything I've touched
-once, but a lead who hires on that list finds out in week two.
-
-## What I'm fixing in myself
-
-The JavaScript pass I'm doing now is the deep one, not the tutorial one. Event loop,
-closures, prototypes, why React behaves the way it does under the hood.
-
-Testing is where I'm thinnest. I've historically validated visually and by hand, which
-works right up until it doesn't. Building real testing discipline is my current project,
-and I'd rather tell you than have you find it in a code review.
-
-I'm also learning to treat the pipeline as part of the product. Automated checks,
-reproducible builds, deploys that aren't a manual ritual.
-
-Last one: I'm reading more code than I write. Nothing has improved my engineering faster
-than studying a well-architected codebase instead of only producing my own.
-
-## On AI tools
-
-I use them heavily and I think the how matters more than the whether.
-
-I build tooling rather than paste output — reusable workflows and documented project
-context, so what comes back is grounded in the actual codebase. Anything automated
-proposes; nothing writes to source unsupervised. And I own every line that ships. If I
-can't explain it, it doesn't go in. Speed bought against understanding isn't speed.
-
-## Fit
-
-I do my best work where design precision and front-end architecture overlap. Design
-systems, component architecture, motion, accessibility, interfaces that have to survive
-real product complexity. I want a team that writes things down and gives blunt feedback.
-
-If you're a lead sizing me up: I'm strong on design-to-code quality and system thinking,
-I'm honest about the depth I'm still building, and I take "the standard is higher than
-that" well.
+I enjoy working where **visual thinking meets technical problem-solving**.
 
 ---
 
-<p align="center">
-  <a href="https://mattvidal.works/"><img src="https://img.shields.io/badge/Portfolio-mattvidal.works-111111?style=flat-square" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/mateusvidal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+## 🛠 Tech & Tools
+
+These are technologies and tools I actively work with or regularly use in my current workflow.
+
+### Front-End
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react" />
 </p>
 
-<p align="center">
-  <sub>Open to conversations about front-end and design-systems work.</sub>
+### Design & Web
+
+<p>
+  <img src="https://skillicons.dev/icons?i=figma,webflow" />
 </p>
+
+### Development Workflow
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode" />
+</p>
+
+### Also working with
+
+- **GSAP** for animation and interactive experiences
+- **AI-assisted development workflows**
+- **MCP-based tooling and AI integrations**
+- **Design systems**
+- **Figma-to-production workflows**
+- **Automation and modern development processes**
+
+---
+
+## 📚 Currently Strengthening
+
+I'm intentionally investing time in building stronger front-end engineering fundamentals.
+
+My current learning focus includes:
+
+- **Modern JavaScript**
+- **HTML & CSS at a deeper technical level**
+- **TypeScript**
+- **React**
+- **Git and collaborative development workflows**
+- **Front-end architecture and engineering fundamentals**
+
+The goal isn't simply to collect more technologies.
+
+I'm focused on developing a stronger understanding of **how the web works**, how applications are structured, and how to make better technical decisions beyond the visual layer.
+
+---
+
+## 🎨 Design × Development
+
+One of the biggest advantages I bring to front-end development is my design background.
+
+I don't see design and development as completely separate stages.
+
+A good interface requires both:
+
+> **A clear visual system and a solid implementation behind it.**
+
+My experience working with design allows me to think about:
+
+- Visual hierarchy
+- Typography
+- Spacing and composition
+- Responsive behavior
+- Component consistency
+- Interaction and motion
+- Design systems
+- The relationship between Figma and the final product
+
+At the same time, my focus on development is helping me understand how those decisions translate into reusable components, maintainable code, responsive layouts, and real-world technical constraints.
+
+I'm interested in becoming better at **bridging the gap between what is designed and what is actually built**.
+
+---
+
+## 🚀 Current Focus
+
+Right now, I'm focused on evolving from a workflow that has been strongly connected to visual development and Webflow into a deeper, more code-driven front-end practice.
+
+That includes:
+
+- Strengthening my JavaScript and TypeScript foundations
+- Building more with React
+- Improving my understanding of modern front-end architecture
+- Developing stronger engineering habits and workflows
+- Using AI as a development accelerator without replacing technical understanding
+- Exploring automation and AI-assisted development
+- Building interfaces that combine strong visual design with solid implementation
+
+I'm especially interested in the future of workflows where **developers, designers, AI, and automation work together more effectively**.
+
+---
+
+## 🧩 Selected Work & Initiatives
+
+### Web Development & Design
+
+I've worked on web experiences that combine design, Webflow development, interactions, and modern implementation workflows.
+
+My work has included projects involving:
+
+- Webflow development
+- Custom interactions and animation
+- Design-to-development workflows
+- Website migrations and modern hosting approaches
+- Analytics and integration workflows
+- Design systems and reusable components
+
+### Education & Community
+
+I've also contributed to the Webflow community in Brazil through educational initiatives and content focused on helping more people learn modern web development and Webflow.
+
+### Exploring Better Workflows
+
+A recurring area of interest in my work is improving how digital products move from:
+
+**Idea → Design → Implementation → Iteration**
+
+I'm particularly interested in workflows involving:
+
+- Figma
+- Webflow
+- Code
+- AI-assisted development
+- Automation
+- Design systems
+- More efficient design-to-production processes
+
+---
+
+## 🧠 How I Approach Technology
+
+I don't believe good development is just about knowing a long list of frameworks.
+
+For me, the goal is to understand:
+
+- **Why** something works
+- **When** a tool is the right choice
+- **How** design decisions affect implementation
+- **What** should be automated
+- **Where** AI can accelerate work without replacing understanding
+
+I'm building toward a career where design awareness, engineering fundamentals, and modern development workflows reinforce each other.
+
+---
+
+## 📈 Beyond the Tools
+
+A few things that currently define my professional direction:
+
+```text
+Design awareness          → Building interfaces with intentional visual decisions
+Front-end engineering     → Strengthening the fundamentals behind the interface
+AI-assisted development   → Exploring faster and smarter ways to build
+Automation                → Reducing repetitive work and improving workflows
+Modern web                → Staying close to how the web is evolving
+Continuous depth          → Understanding systems instead of just using tools
